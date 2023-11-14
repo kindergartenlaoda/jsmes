@@ -1,0 +1,191 @@
+[
+    {
+        "id": "6d054402.bae15c",
+        "type": "tab",
+        "label": "JSON <-> XML",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "fe821493.2e0e28",
+        "type": "comment",
+        "z": "6d054402.bae15c",
+        "name": "Parse result as JSON",
+        "info": "Template node can create a string value using [Mustache](http://mustache.github.io/mustache.5.html) syntax.\nIf `Partsed JSON` output is selected, the created string is parsed as JSON format and JavaScript object is send as an output payload value.",
+        "x": 360,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "931f94e8.592cd8",
+        "type": "inject",
+        "z": "6d054402.bae15c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "message",
+        "payload": "Hello, World!",
+        "payloadType": "str",
+        "x": 420,
+        "y": 580,
+        "wires": [
+            [
+                "bb2b0dad.b24b5"
+            ]
+        ]
+    },
+    {
+        "id": "bb2b0dad.b24b5",
+        "type": "template",
+        "z": "6d054402.bae15c",
+        "name": "JSON template",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n    \"PRODUCTION_REQUEST\":\n        {\n            \"COMPLETE\":\n                {\n                    \"SFC_LIST\":\n                        {\n                            \"SFC\":\n                                {\n                                \"SITE\": \"站点\",\n                                    \"ACTIVITY\": \"XML\",\n                                    \"ID\": \"SFC 号\",\n                                    \"RESOURCE\": \"资源\",\n                                    \"OPERATION\": \"工序\",\n                                    \"USER\": \"用户名\",\n                                    \"QTY\": \"1\",\n                                    \"DATE_TIME\": \"\",\n                                    \"DATE_STARTED\": []\n                                }\n                        }\n                }\n        }\n}",
+        "output": "json",
+        "x": 640,
+        "y": 580,
+        "wires": [
+            [
+                "25fee03870bf69a9"
+            ]
+        ]
+    },
+    {
+        "id": "baf2e48.2b97418",
+        "type": "debug",
+        "z": "6d054402.bae15c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "25fee03870bf69a9",
+        "type": "xml",
+        "z": "6d054402.bae15c",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 810,
+        "y": 580,
+        "wires": [
+            [
+                "baf2e48.2b97418"
+            ]
+        ]
+    },
+    {
+        "id": "93e423a9.a407d",
+        "type": "xml",
+        "z": "6d054402.bae15c",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 730,
+        "y": 360,
+        "wires": [
+            [
+                "2d0dde7e.a50082"
+            ]
+        ]
+    },
+    {
+        "id": "ba1dab90.8d1da8",
+        "type": "inject",
+        "z": "6d054402.bae15c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 400,
+        "y": 360,
+        "wires": [
+            [
+                "16617f26.14ced1"
+            ]
+        ]
+    },
+    {
+        "id": "a9f97b00.57d658",
+        "type": "comment",
+        "z": "6d054402.bae15c",
+        "name": "Convert XML to JavaScript object",
+        "info": "XML node can convert XML string to JavaScript object.",
+        "x": 440,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "2d0dde7e.a50082",
+        "type": "debug",
+        "z": "6d054402.bae15c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "16617f26.14ced1",
+        "type": "template",
+        "z": "6d054402.bae15c",
+        "name": "XML string",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "plain",
+        "template": "<PRODUCTION_RESPONSE>\n    <COMPLETE>\n        <SFC_LIST>\n            <SFC>\n                <ID>HB002124567</ID>\n                <ITEM>50000012-00</ITEM>\n                <ROUTER>HB-ZP-01</ROUTER>\n                <STEP_ID>010</STEP_ID>\n                <REWORK>false</REWORK>\n                <QTY>1</QTY>\n                <TIMES_PROCESSED>1</TIMES_PROCESSED>\n                <STEP_COMPLETED>true</STEP_COMPLETED>\n                <DONE>true</DONE>\n                <DATE_TIME>2020-08-20T10:01:01.924Z</DATE_TIME>\n            </SFC>\n        </SFC_LIST>\n    </COMPLETE>\n</PRODUCTION_RESPONSE>",
+        "output": "str",
+        "x": 570,
+        "y": 360,
+        "wires": [
+            [
+                "93e423a9.a407d"
+            ]
+        ]
+    }
+]

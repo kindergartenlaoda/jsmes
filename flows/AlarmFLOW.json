@@ -1,0 +1,1503 @@
+[
+    {
+        "id": "c5499494eed34756",
+        "type": "tab",
+        "label": "OPC UA",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f4a4d8eab7935bc8",
+        "type": "tab",
+        "label": "TCP/IP",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "efac1503d654af03",
+        "type": "tab",
+        "label": "HTTP",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "edf65a0412ba4699",
+        "type": "tab",
+        "label": "WebSocket",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dc65fb7c9ffe72b3",
+        "type": "tab",
+        "label": "Serial",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f0deb91df02064c8",
+        "type": "tab",
+        "label": "SQL",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1b30c21b2c553afe",
+        "type": "tab",
+        "label": "文件读写",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d137e695c923b0a8",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "893b11c2c20e2857",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4b461473425cea60",
+        "type": "ui_group",
+        "name": "这是一个Demo",
+        "tab": "d137e695c923b0a8",
+        "order": 2,
+        "disp": true,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "83445a635c84a705",
+        "type": "ui_link",
+        "name": "MyWeb",
+        "link": "file:///D:/UserFiles/01002972/Desktop/myWEB/index.html",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 3
+    },
+    {
+        "id": "18b9eb225f2775e4",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 2,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "79253cd1985f9fdf",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 4,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "88c480365aa5d660",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 5,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "cd9515f5201a2afb",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 6,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "16abc256de89f070",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 9,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "8c63ec6e4e0a2132",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 10,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "2920e486869011b5",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 11,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "93f3e87a0331e631",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 12,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "86287d81c13da3e4",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 13,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "6c5c5b7a58268cd0",
+        "type": "ui_spacer",
+        "z": "c5499494eed34756",
+        "name": "spacer",
+        "group": "4b461473425cea60",
+        "order": 14,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "a6232f4d.2cb748",
+        "type": "websocket-client",
+        "path": "ws://127.0.0.1:9501",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": ""
+    },
+    {
+        "id": "31125c21.b742f4",
+        "type": "serial-port",
+        "serialport": "COM10",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "0x02",
+        "newline": "0x03",
+        "bin": "false",
+        "out": "char",
+        "addchar": "\\n",
+        "responsetimeout": ""
+    },
+    {
+        "id": "4a9e29dc8a75e9f8",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://127.0.0.1:49320",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "edd0c55b8acf49d1",
+        "type": "websocket-listener",
+        "path": "ws://127.0.0.1:9501",
+        "wholemsg": "false"
+    },
+    {
+        "id": "fc5cfb2a85776559",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "MySQL",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "b9a61709.0b7958",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "localhost",
+        "port": "3306",
+        "db": "MySQL",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "7290d8b0.f713d8",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://localhost:62544/Quickstarts/AlarmConditionServer",
+        "login": false
+    },
+    {
+        "id": "68021f9.ba14de",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://localhost:53530/OPCUA/SimulationServer",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": false
+    },
+    {
+        "id": "b1683679d9c1413e",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://localhost:53530/OPCUA/SimulationServer",
+        "secpol": "None",
+        "secmode": "None",
+        "login": false
+    },
+    {
+        "id": "864903d6ba2a2e73",
+        "type": "inject",
+        "z": "c5499494eed34756",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 340,
+        "wires": [
+            [
+                "0c495866e0128036",
+                "bc3659e5b54bfff2"
+            ]
+        ]
+    },
+    {
+        "id": "0c495866e0128036",
+        "type": "OpcUa-Item",
+        "z": "c5499494eed34756",
+        "item": "ns=2;s=KepwareOPC.TEST.T1",
+        "datatype": "UInt16",
+        "value": "",
+        "name": "T1",
+        "x": 390,
+        "y": 340,
+        "wires": [
+            [
+                "58c1251f4405ecc7"
+            ]
+        ]
+    },
+    {
+        "id": "4d6a0d44d409ab28",
+        "type": "function",
+        "z": "c5499494eed34756",
+        "name": "process",
+        "func": "//msg.payload = `\u0002Message From OPC UA ${msg.payload}\u0003`;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 340,
+        "wires": [
+            [
+                "f263838b3bc1ccd2",
+                "ac47e9aa8c6ba4cf"
+            ]
+        ]
+    },
+    {
+        "id": "f263838b3bc1ccd2",
+        "type": "debug",
+        "z": "c5499494eed34756",
+        "name": "debug opcua",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "58c1251f4405ecc7",
+        "type": "OpcUa-Client",
+        "z": "c5499494eed34756",
+        "endpoint": "4a9e29dc8a75e9f8",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "1",
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "maxChunkCount": 1,
+        "maxMessageSize": 8192,
+        "receiveBufferSize": 8192,
+        "sendBufferSize": 8192,
+        "name": "Kepware",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "4d6a0d44d409ab28",
+                "f77075053651f5c0"
+            ]
+        ]
+    },
+    {
+        "id": "900bfba2b8ac74bf",
+        "type": "catch",
+        "z": "c5499494eed34756",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1120,
+        "y": 40,
+        "wires": [
+            [
+                "62b29fb85a5fd987"
+            ]
+        ]
+    },
+    {
+        "id": "62b29fb85a5fd987",
+        "type": "link out",
+        "z": "c5499494eed34756",
+        "name": "OPC报错",
+        "mode": "link",
+        "links": [
+            "7a74e27e40b257e7"
+        ],
+        "x": 1245,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ac47e9aa8c6ba4cf",
+        "type": "link out",
+        "z": "c5499494eed34756",
+        "d": true,
+        "name": "OPC数据",
+        "mode": "link",
+        "links": [
+            "938c4c2159de6d6e"
+        ],
+        "x": 975,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "bc3659e5b54bfff2",
+        "type": "OpcUa-Item",
+        "z": "c5499494eed34756",
+        "item": "ns=2;s=KepwareOPC.TEST.T2",
+        "datatype": "UInt16",
+        "value": "",
+        "name": "T2",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "58c1251f4405ecc7"
+            ]
+        ]
+    },
+    {
+        "id": "f77075053651f5c0",
+        "type": "switch",
+        "z": "c5499494eed34756",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ns=2;s=KepwareOPC.TEST.T1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ns=2;s=KepwareOPC.TEST.T2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 910,
+        "y": 580,
+        "wires": [
+            [
+                "5c36e2dda69e854d",
+                "4ba711a428ad57bd"
+            ],
+            [
+                "b4fa2758375d541e"
+            ]
+        ]
+    },
+    {
+        "id": "5c36e2dda69e854d",
+        "type": "debug",
+        "z": "c5499494eed34756",
+        "name": "10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b4fa2758375d541e",
+        "type": "debug",
+        "z": "c5499494eed34756",
+        "name": "20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "4ba711a428ad57bd",
+        "type": "link out",
+        "z": "c5499494eed34756",
+        "name": "TO TCP",
+        "mode": "link",
+        "links": [
+            "d0d5b4ed855e432d"
+        ],
+        "x": 1035,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "de6ed35ac9e49b18",
+        "type": "OpcUa-Client",
+        "z": "c5499494eed34756",
+        "endpoint": "4a9e29dc8a75e9f8",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "1",
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "maxChunkCount": 1,
+        "maxMessageSize": 8192,
+        "receiveBufferSize": 8192,
+        "sendBufferSize": 8192,
+        "name": "Kepware",
+        "x": 620,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a5ff13b95f8c448",
+        "type": "OpcUa-Item",
+        "z": "c5499494eed34756",
+        "item": "ns=2;s=KepwareOPC.TEST.T1",
+        "datatype": "UInt16",
+        "value": "",
+        "name": "T1",
+        "x": 450,
+        "y": 740,
+        "wires": [
+            [
+                "de6ed35ac9e49b18"
+            ]
+        ]
+    },
+    {
+        "id": "f7e4bac6cb8584cc",
+        "type": "inject",
+        "z": "c5499494eed34756",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 270,
+        "y": 740,
+        "wires": [
+            [
+                "4a5ff13b95f8c448"
+            ]
+        ]
+    },
+    {
+        "id": "4843765b.1af508",
+        "type": "tcp in",
+        "z": "f4a4d8eab7935bc8",
+        "name": "TCP客戶端",
+        "server": "client",
+        "host": "127.0.0.1",
+        "port": "7070",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "",
+        "topic": "",
+        "trim": false,
+        "base64": false,
+        "tls": "",
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "e2077b8c2dc32e03",
+                "6bc9fcd2f21b01ed",
+                "cfa4eea347cc55b1"
+            ]
+        ]
+    },
+    {
+        "id": "a4f8ed1e.c28a3",
+        "type": "debug",
+        "z": "f4a4d8eab7935bc8",
+        "name": "debug tcp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "27457a99.3109b6",
+        "type": "tcp out",
+        "z": "f4a4d8eab7935bc8",
+        "name": "TCP响应",
+        "host": "",
+        "port": "",
+        "beserver": "reply",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 680,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "c5c4248277b29dbf",
+        "type": "catch",
+        "z": "f4a4d8eab7935bc8",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1100,
+        "y": 40,
+        "wires": [
+            [
+                "da946dd5df78589e"
+            ]
+        ]
+    },
+    {
+        "id": "da946dd5df78589e",
+        "type": "link out",
+        "z": "f4a4d8eab7935bc8",
+        "name": "串口报错",
+        "mode": "link",
+        "links": [
+            "7a74e27e40b257e7"
+        ],
+        "x": 1225,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "e2077b8c2dc32e03",
+        "type": "link out",
+        "z": "f4a4d8eab7935bc8",
+        "name": "串口数据",
+        "mode": "link",
+        "links": [
+            "938c4c2159de6d6e"
+        ],
+        "x": 395,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d0d5b4ed855e432d",
+        "type": "link in",
+        "z": "f4a4d8eab7935bc8",
+        "name": "FROM OPC",
+        "links": [
+            "4ba711a428ad57bd"
+        ],
+        "x": 305,
+        "y": 540,
+        "wires": [
+            [
+                "27457a99.3109b6"
+            ]
+        ]
+    },
+    {
+        "id": "062f0983aff6f381",
+        "type": "inject",
+        "z": "f4a4d8eab7935bc8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 480,
+        "wires": [
+            [
+                "d847f21289068ff0"
+            ]
+        ]
+    },
+    {
+        "id": "d847f21289068ff0",
+        "type": "function",
+        "z": "f4a4d8eab7935bc8",
+        "name": "identification",
+        "func": "var str = '\u0002IDENTIFICATION,PWM-RVT,957,20201207172705\u0003' \nvar buf = Buffer.alloc(4, 0); // 创建一个长度为 4，初始值为 0 的 Buffer\nbuf.writeUInt32BE(Buffer.byteLength(str), 0); // 将字符串的字节数写入 Buffer\nmsg.payload = buf;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 480,
+        "wires": [
+            [
+                "27457a99.3109b6"
+            ]
+        ]
+    },
+    {
+        "id": "6bc9fcd2f21b01ed",
+        "type": "function",
+        "z": "f4a4d8eab7935bc8",
+        "name": "identification",
+        "func": "var startIndex = msg.payload.indexOf(\"\u0002\");\nvar endIndex = msg.payload.indexOf(\"\u0003\");\nvar storedString = context.flow.get('myUniquePrefix_s') || '';\n\nif (startIndex >= 0) {\n    if (endIndex >= 0) {\n        msg.payload = msg.payload.substring(startIndex, endIndex);\n        context.flow.set('myUniquePrefix_s', '');\n        return msg;\n    }\n    else {\n        storedString += msg.payload.substring(startIndex);\n        context.flow.set('myUniquePrefix_s', storedString);\n    }\n}\nelse {\n    if (endIndex >= 0) {\n        msg.payload = storedString + msg.payload.substring(0, endIndex);\n        context.flow.set('myUniquePrefix_s', '');\n        return msg;\n    }\n    else {\n        storedString += msg.payload;\n        context.flow.set('myUniquePrefix_s', storedString);\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// 部署节点后，此处添加的代码将运行一次。 \ncontext.flow.set('myUniquePrefix_s');",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 400,
+        "wires": [
+            [
+                "a4f8ed1e.c28a3"
+            ]
+        ]
+    },
+    {
+        "id": "33b3810f150e6d12",
+        "type": "debug",
+        "z": "f4a4d8eab7935bc8",
+        "name": "debug tcp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "cfa4eea347cc55b1",
+        "type": "function",
+        "z": "f4a4d8eab7935bc8",
+        "name": "identification",
+        "func": "\nvar startIndex = msg.payload.indexOf(\"\u0002\"); // 查找起始符的位置\nvar endIndex = msg.payload.indexOf(\"\u0003\");\nvar A = String(startIndex);\nvar B = String(endIndex);\nmsg.payload = `起始位置在 ${A} 结束位置在 ${B}`\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "33b3810f150e6d12",
+                "893364a4c929ecf5"
+            ]
+        ]
+    },
+    {
+        "id": "893364a4c929ecf5",
+        "type": "function",
+        "z": "f4a4d8eab7935bc8",
+        "name": "identification",
+        "func": "msg.payload = context.flow.get('myUniquePrefix_s');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 340,
+        "wires": [
+            [
+                "252e2cc90f7674d9"
+            ]
+        ]
+    },
+    {
+        "id": "252e2cc90f7674d9",
+        "type": "debug",
+        "z": "f4a4d8eab7935bc8",
+        "name": "debug tcp",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d16ddb67.3c431",
+        "type": "http request",
+        "z": "efac1503d654af03",
+        "name": "HTTP Request",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://www.example.com/index.html",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 520,
+        "y": 380,
+        "wires": [
+            [
+                "b0dc6131.18e5e",
+                "68f9e5e234fcad8c"
+            ]
+        ]
+    },
+    {
+        "id": "b0dc6131.18e5e",
+        "type": "debug",
+        "z": "efac1503d654af03",
+        "name": "debug http",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "62cdb4dd0dc2e30f",
+        "type": "inject",
+        "z": "efac1503d654af03",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 380,
+        "wires": [
+            [
+                "d16ddb67.3c431"
+            ]
+        ]
+    },
+    {
+        "id": "68f9e5e234fcad8c",
+        "type": "link out",
+        "z": "efac1503d654af03",
+        "name": "HTTP数据",
+        "mode": "link",
+        "links": [
+            "938c4c2159de6d6e"
+        ],
+        "x": 685,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "0d5d0524c79b0baf",
+        "type": "catch",
+        "z": "efac1503d654af03",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1100,
+        "y": 60,
+        "wires": [
+            [
+                "01aa85b90be45003"
+            ]
+        ]
+    },
+    {
+        "id": "01aa85b90be45003",
+        "type": "link out",
+        "z": "efac1503d654af03",
+        "name": "HTTP报错",
+        "mode": "link",
+        "links": [
+            "7a74e27e40b257e7"
+        ],
+        "x": 1225,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ebab2f0d.b5c7e8",
+        "type": "websocket in",
+        "z": "edf65a0412ba4699",
+        "name": "",
+        "server": "edd0c55b8acf49d1",
+        "client": "",
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "ce1f4384.07ac8",
+                "642881d81e21e2b6",
+                "2bb1ee652dcbbbfb"
+            ]
+        ]
+    },
+    {
+        "id": "ce1f4384.07ac8",
+        "type": "debug",
+        "z": "edf65a0412ba4699",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "642881d81e21e2b6",
+        "type": "link out",
+        "z": "edf65a0412ba4699",
+        "name": "串口数据",
+        "mode": "link",
+        "links": [
+            "938c4c2159de6d6e"
+        ],
+        "x": 645,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "a058c8b1c8aceb2a",
+        "type": "catch",
+        "z": "edf65a0412ba4699",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1100,
+        "y": 60,
+        "wires": [
+            [
+                "d7a85a2a81d5ef67"
+            ]
+        ]
+    },
+    {
+        "id": "d7a85a2a81d5ef67",
+        "type": "link out",
+        "z": "edf65a0412ba4699",
+        "name": "串口报错",
+        "mode": "link",
+        "links": [
+            "7a74e27e40b257e7"
+        ],
+        "x": 1225,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e1a3d826.724a88",
+        "type": "websocket out",
+        "z": "edf65a0412ba4699",
+        "name": "",
+        "server": "",
+        "client": "a6232f4d.2cb748",
+        "x": 990,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2bb1ee652dcbbbfb",
+        "type": "function",
+        "z": "edf65a0412ba4699",
+        "name": "WebSocket内容",
+        "func": "msg.payload = \"Got you bro WebSocket\\r\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 500,
+        "wires": [
+            [
+                "e1a3d826.724a88",
+                "3451fd8770347d56"
+            ]
+        ]
+    },
+    {
+        "id": "3451fd8770347d56",
+        "type": "debug",
+        "z": "edf65a0412ba4699",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b1c64b0a.77d038",
+        "type": "serial in",
+        "z": "dc65fb7c9ffe72b3",
+        "name": "",
+        "serial": "31125c21.b742f4",
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [
+                "6404bed8.f22f1",
+                "3f3ccc34b6c8a132",
+                "2f2ef31df5162b31"
+            ]
+        ]
+    },
+    {
+        "id": "6404bed8.f22f1",
+        "type": "debug",
+        "z": "dc65fb7c9ffe72b3",
+        "name": "debug serial",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9146e8c3.3035a8",
+        "type": "serial out",
+        "z": "dc65fb7c9ffe72b3",
+        "name": "",
+        "serial": "31125c21.b742f4",
+        "x": 900,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b607f2d19a688d4a",
+        "type": "catch",
+        "z": "dc65fb7c9ffe72b3",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1120,
+        "y": 40,
+        "wires": [
+            [
+                "fa79525639c5b30a"
+            ]
+        ]
+    },
+    {
+        "id": "fa79525639c5b30a",
+        "type": "link out",
+        "z": "dc65fb7c9ffe72b3",
+        "name": "串口报错",
+        "mode": "link",
+        "links": [
+            "7a74e27e40b257e7"
+        ],
+        "x": 1245,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "3f3ccc34b6c8a132",
+        "type": "link out",
+        "z": "dc65fb7c9ffe72b3",
+        "name": "串口数据",
+        "mode": "link",
+        "links": [
+            "938c4c2159de6d6e"
+        ],
+        "x": 665,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2f2ef31df5162b31",
+        "type": "function",
+        "z": "dc65fb7c9ffe72b3",
+        "name": "SeriaPort内容",
+        "func": "msg.payload = \"Got you bro SerialPort\\r\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 440,
+        "wires": [
+            [
+                "9146e8c3.3035a8"
+            ]
+        ]
+    },
+    {
+        "id": "d8f5b08c.6cf308",
+        "type": "mysql",
+        "z": "f0deb91df02064c8",
+        "mydb": "b9a61709.0b7958",
+        "name": "",
+        "x": 460,
+        "y": 500,
+        "wires": [
+            [
+                "67fd3022.e188f"
+            ]
+        ]
+    },
+    {
+        "id": "67fd3022.e188f",
+        "type": "function",
+        "z": "f0deb91df02064c8",
+        "name": "Query",
+        "func": "msg.topic = \"SELECT * FROM table_name\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 500,
+        "wires": [
+            [
+                "96e6b7de.9d17c"
+            ]
+        ]
+    },
+    {
+        "id": "96e6b7de.9d17c",
+        "type": "debug",
+        "z": "f0deb91df02064c8",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 800,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7a74e27e40b257e7",
+        "type": "link in",
+        "z": "1b30c21b2c553afe",
+        "name": "存储报错",
+        "links": [
+            "62b29fb85a5fd987",
+            "da946dd5df78589e",
+            "fa79525639c5b30a",
+            "01aa85b90be45003",
+            "8cb1ec8af86d0feb",
+            "d7a85a2a81d5ef67"
+        ],
+        "x": 835,
+        "y": 80,
+        "wires": [
+            [
+                "e5eb5bf4400c7195"
+            ]
+        ]
+    },
+    {
+        "id": "8e86e79fd560a21f",
+        "type": "file",
+        "z": "1b30c21b2c553afe",
+        "name": "",
+        "filename": "D:\\UserFiles\\01002972\\Desktop\\Node-RED.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1200,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "938c4c2159de6d6e",
+        "type": "link in",
+        "z": "1b30c21b2c553afe",
+        "name": "存储数据",
+        "links": [
+            "3f3ccc34b6c8a132",
+            "642881d81e21e2b6",
+            "68f9e5e234fcad8c",
+            "ac47e9aa8c6ba4cf",
+            "e2077b8c2dc32e03"
+        ],
+        "x": 165,
+        "y": 80,
+        "wires": [
+            [
+                "2928d0fe9e6f8b3e"
+            ]
+        ]
+    },
+    {
+        "id": "2928d0fe9e6f8b3e",
+        "type": "function",
+        "z": "1b30c21b2c553afe",
+        "name": "读取数据",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 80,
+        "wires": [
+            [
+                "23b87deb8d331e08",
+                "f7ac2b05c514f7e6"
+            ]
+        ]
+    },
+    {
+        "id": "23b87deb8d331e08",
+        "type": "file",
+        "z": "1b30c21b2c553afe",
+        "name": "",
+        "filename": "D:\\UserFiles\\01002972\\Desktop\\Node-RED.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 520,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5eb5bf4400c7195",
+        "type": "function",
+        "z": "1b30c21b2c553afe",
+        "name": "读取数据",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 80,
+        "wires": [
+            [
+                "8e86e79fd560a21f",
+                "44d347bf281dfd0a"
+            ]
+        ]
+    },
+    {
+        "id": "f7ac2b05c514f7e6",
+        "type": "debug",
+        "z": "1b30c21b2c553afe",
+        "name": "debug数据读取",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "44d347bf281dfd0a",
+        "type": "debug",
+        "z": "1b30c21b2c553afe",
+        "name": "debug错误读取",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1bd19b4fea5a42cc",
+        "type": "uibuilder",
+        "z": "1b30c21b2c553afe",
+        "name": "",
+        "topic": "",
+        "url": "test",
+        "fwdInMessages": false,
+        "allowScripts": false,
+        "allowStyles": false,
+        "copyIndex": true,
+        "templateFolder": "blank",
+        "extTemplate": "",
+        "showfolder": false,
+        "reload": false,
+        "sourceFolder": "src",
+        "deployedVersion": "6.4.1",
+        "showMsgUib": false,
+        "x": 410,
+        "y": 360,
+        "wires": [
+            [],
+            []
+        ]
+    }
+]

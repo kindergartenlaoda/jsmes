@@ -1,0 +1,3390 @@
+[
+    {
+        "id": "8b65fa03bdc21c8c",
+        "type": "tab",
+        "label": "UI",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a0274cc0.46c5b",
+        "type": "tab",
+        "label": "文件IO模组",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7008401a.b94db",
+        "type": "tab",
+        "label": "OPC模组",
+        "disabled": false,
+        "info": "Code actually uses monitoredItemGroup"
+    },
+    {
+        "id": "71c3442d.65d4dc",
+        "type": "tab",
+        "label": "WebApi模组",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "fa85aa2ebd8bfb84",
+        "type": "tab",
+        "label": "串口模组",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "89637e7f20931a78",
+        "type": "subflow",
+        "name": "XML格式化",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 240,
+                "wires": [
+                    {
+                        "id": "2222a5d08addb574"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 480,
+                "y": 240,
+                "wires": [
+                    {
+                        "id": "71364d90bcd68cda",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "27d9ce553525ef21",
+        "type": "group",
+        "z": "71c3442d.65d4dc",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "beaf29b27d79fbc1",
+            "5495eb4eccaaa42a",
+            "1eef3e000696d0a4"
+        ],
+        "x": 1134,
+        "y": 99
+    },
+    {
+        "id": "b7defd01f2d06d68",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "af1f4fb6dcc0d795",
+        "type": "ui_tab",
+        "name": "MES",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "53aab9c84fcc03bc",
+        "type": "ui_group",
+        "name": "手动设置条码",
+        "tab": "af1f4fb6dcc0d795",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0c0a90ba815adb2d",
+        "type": "ui_group",
+        "name": "人工操作",
+        "tab": "af1f4fb6dcc0d795",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b404cc4e9e04814b",
+        "type": "ui_group",
+        "name": "手动测试",
+        "tab": "af1f4fb6dcc0d795",
+        "order": 4,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c30cf4f51bd79697",
+        "type": "ui_group",
+        "name": "日志",
+        "tab": "83d1b2faf4856342",
+        "order": 6,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "83d1b2faf4856342",
+        "type": "ui_tab",
+        "name": "日志",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "893b11c2c20e2857",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#000000",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#000000",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#262626",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#eeeeee",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#3f51b5",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "31125c21.b742f4",
+        "type": "serial-port",
+        "serialport": "COM1",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "newline": "200",
+        "bin": "false",
+        "out": "interbyte",
+        "addchar": "\\n",
+        "responsetimeout": ""
+    },
+    {
+        "id": "4a9e29dc8a75e9f8",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://192.168.0.10:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "d4b5416a.9c25f",
+        "type": "ui_group",
+        "name": "LOG",
+        "tab": "93036b0733817302",
+        "order": 5,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "93036b0733817302",
+        "type": "ui_tab",
+        "name": "MES",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "58db0902ed2767ef",
+        "type": "ui_group",
+        "name": "条码读取",
+        "tab": "93036b0733817302",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a67f92998c564135",
+        "type": "ui_group",
+        "name": "手动设置条码",
+        "tab": "93036b0733817302",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6cc9b914691ffc49",
+        "type": "ui_group",
+        "name": "人工操作",
+        "tab": "93036b0733817302",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c963d3079377fa01",
+        "type": "ui_group",
+        "name": "手动测试",
+        "tab": "93036b0733817302",
+        "order": 4,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "43c364af5e0649bc",
+        "type": "ui_group",
+        "name": "日志",
+        "tab": "dd568c4fc90102c3",
+        "order": 6,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dd568c4fc90102c3",
+        "type": "ui_tab",
+        "name": "日志",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "39a7f281ef47aa43",
+        "type": "ui_spacer",
+        "z": "8b65fa03bdc21c8c",
+        "name": "spacer",
+        "group": "43c364af5e0649bc",
+        "order": 2,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "977c55cd635f6e70",
+        "type": "ui_spacer",
+        "z": "8b65fa03bdc21c8c",
+        "name": "spacer",
+        "group": "a67f92998c564135",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "56b8e4bf35106dfd",
+        "type": "ui_spacer",
+        "z": "8b65fa03bdc21c8c",
+        "name": "spacer",
+        "group": "c963d3079377fa01",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9b6b02b4db51eed3",
+        "type": "ui_spacer",
+        "z": "8b65fa03bdc21c8c",
+        "name": "spacer",
+        "group": "c963d3079377fa01",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "72d481ee12f865db",
+        "type": "ui_spacer",
+        "z": "8b65fa03bdc21c8c",
+        "name": "spacer",
+        "group": "c963d3079377fa01",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d279ed1584f13305",
+        "type": "ui_spacer",
+        "z": "8b65fa03bdc21c8c",
+        "name": "spacer",
+        "group": "6cc9b914691ffc49",
+        "order": 3,
+        "width": "5",
+        "height": "1"
+    },
+    {
+        "id": "bda58658b0bd0903",
+        "type": "ui_spacer",
+        "z": "8b65fa03bdc21c8c",
+        "name": "spacer",
+        "group": "d4b5416a.9c25f",
+        "order": 7,
+        "width": "15",
+        "height": "1"
+    },
+    {
+        "id": "2222a5d08addb574",
+        "type": "xml",
+        "z": "89637e7f20931a78",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "71364d90bcd68cda"
+            ]
+        ]
+    },
+    {
+        "id": "71364d90bcd68cda",
+        "type": "change",
+        "z": "89637e7f20931a78",
+        "name": "删除XML前缀",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "135ea32038746d46",
+        "type": "ui_button",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "group": "6cc9b914691ffc49",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "用户验证",
+        "tooltip": "点击一次等待即可",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ReadConfig",
+        "payloadType": "str",
+        "topic": "UI",
+        "topicType": "str",
+        "x": 160,
+        "y": 200,
+        "wires": [
+            [
+                "2bb51e73736018b4"
+            ]
+        ]
+    },
+    {
+        "id": "2bb51e73736018b4",
+        "type": "link out",
+        "z": "8b65fa03bdc21c8c",
+        "name": "O_读取配置",
+        "mode": "link",
+        "links": [
+            "de363d9c049ad7f5"
+        ],
+        "x": 325,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2f44a18ba1d8384a",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "d4b5416a.9c25f",
+        "order": 2,
+        "width": 15,
+        "height": 1,
+        "name": "",
+        "label": "读写记录:",
+        "format": "{{msg.topic}} : 当前值[{{msg.payload}}]",
+        "layout": "row-left",
+        "className": "",
+        "x": 1120,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "024e984029a838d5",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_物料扫码",
+        "links": [
+            "26d6802a1e01992f"
+        ],
+        "x": 995,
+        "y": 440,
+        "wires": [
+            [
+                "db8a28e9c5b27df5"
+            ]
+        ]
+    },
+    {
+        "id": "f2a389f512dc5492",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_进站条码",
+        "links": [
+            "37ed53418f8aa019"
+        ],
+        "x": 995,
+        "y": 480,
+        "wires": [
+            [
+                "32ed25de78af8fab"
+            ]
+        ]
+    },
+    {
+        "id": "5d1a5bde7820d3b3",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_MES结果",
+        "links": [
+            "d2a8e9759fd5f29f"
+        ],
+        "x": 995,
+        "y": 220,
+        "wires": [
+            [
+                "2f44a18ba1d8384a"
+            ]
+        ]
+    },
+    {
+        "id": "a642c2c64f764611",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_OPCWrite",
+        "links": [
+            "d0b677c548af603c"
+        ],
+        "x": 995,
+        "y": 60,
+        "wires": [
+            [
+                "16c1703341a10303"
+            ]
+        ]
+    },
+    {
+        "id": "ebfcebc1096e5b72",
+        "type": "ui_text_input",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "label": "设置进站PCB码",
+        "tooltip": "",
+        "group": "a67f92998c564135",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "87c38e530b3c59cd"
+            ]
+        ]
+    },
+    {
+        "id": "87c38e530b3c59cd",
+        "type": "change",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "S3PCBCode",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2af28303d599e4e3",
+        "type": "ui_text_input",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "label": "设置出站PCB码",
+        "tooltip": "",
+        "group": "a67f92998c564135",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 180,
+        "y": 520,
+        "wires": [
+            [
+                "dce5a62d10578e6e"
+            ]
+        ]
+    },
+    {
+        "id": "dce5a62d10578e6e",
+        "type": "change",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "S5PCBCode",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32ed25de78af8fab",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "58db0902ed2767ef",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "进站条码",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1120,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "074431193db84ff4",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "58db0902ed2767ef",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "出站条码",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1120,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "fa5a2f511277ae41",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_出站条码",
+        "links": [
+            "db307e85c1ca0da1"
+        ],
+        "x": 995,
+        "y": 520,
+        "wires": [
+            [
+                "074431193db84ff4"
+            ]
+        ]
+    },
+    {
+        "id": "db8a28e9c5b27df5",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "58db0902ed2767ef",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "物料条码",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1120,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "4ca44a73020ad8bd",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_当前配置",
+        "links": [
+            "2660984ffa09d273"
+        ],
+        "x": 995,
+        "y": 400,
+        "wires": [
+            [
+                "2149d954feab3ae2"
+            ]
+        ]
+    },
+    {
+        "id": "2e653c93db85e2c6",
+        "type": "ui_button",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "group": "c963d3079377fa01",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Checkin",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "fe5018339f980edb"
+            ]
+        ]
+    },
+    {
+        "id": "d58b37f91618273e",
+        "type": "ui_button",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "group": "c963d3079377fa01",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "PASS",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "895f27e0ae4bd2ad"
+            ]
+        ]
+    },
+    {
+        "id": "25cc474f19bd8b84",
+        "type": "ui_button",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "group": "c963d3079377fa01",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Fail",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 380,
+        "wires": [
+            [
+                "fc4009712263edb5"
+            ]
+        ]
+    },
+    {
+        "id": "895f27e0ae4bd2ad",
+        "type": "change",
+        "z": "8b65fa03bdc21c8c",
+        "name": "真",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 320,
+        "wires": [
+            [
+                "6f08884e3a0717a3"
+            ]
+        ]
+    },
+    {
+        "id": "fc4009712263edb5",
+        "type": "change",
+        "z": "8b65fa03bdc21c8c",
+        "name": "假",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 380,
+        "wires": [
+            [
+                "6f08884e3a0717a3"
+            ]
+        ]
+    },
+    {
+        "id": "6f08884e3a0717a3",
+        "type": "link out",
+        "z": "8b65fa03bdc21c8c",
+        "name": "O_手动过站",
+        "mode": "link",
+        "links": [
+            "7073f94e7a82bc55"
+        ],
+        "x": 415,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "fe5018339f980edb",
+        "type": "link out",
+        "z": "8b65fa03bdc21c8c",
+        "name": "O_手动进站",
+        "mode": "link",
+        "links": [
+            "dc1bac39df780b98"
+        ],
+        "x": 325,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3f159ba80ff95f88",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "d4b5416a.9c25f",
+        "order": 1,
+        "width": 15,
+        "height": 1,
+        "name": "",
+        "label": "步骤记录：",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1130,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bc940c97e962122c",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_步骤记录",
+        "links": [
+            "f86c4909e26c5790"
+        ],
+        "x": 995,
+        "y": 260,
+        "wires": [
+            [
+                "3f159ba80ff95f88"
+            ]
+        ]
+    },
+    {
+        "id": "bb322ed18f18edb7",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "43c364af5e0649bc",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "发送内容",
+        "label": "",
+        "format": "{{msg.topic}} ： {{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1120,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "51c652011e78aecc",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_发送内容",
+        "links": [
+            "2a82290c2628b65e"
+        ],
+        "x": 995,
+        "y": 300,
+        "wires": [
+            [
+                "bb322ed18f18edb7"
+            ]
+        ]
+    },
+    {
+        "id": "c9061c0bd53feeeb",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "43c364af5e0649bc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "接收内容",
+        "label": "",
+        "format": "{{msg.topic}} ：{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1120,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "302606b8c670962d",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_接收内容",
+        "links": [
+            "b23cf4d9d56bbd77"
+        ],
+        "x": 995,
+        "y": 340,
+        "wires": [
+            [
+                "c9061c0bd53feeeb"
+            ]
+        ]
+    },
+    {
+        "id": "5317dc926b64c245",
+        "type": "catch",
+        "z": "8b65fa03bdc21c8c",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 1060,
+        "y": 740,
+        "wires": [
+            [
+                "0c25386d0300ae51"
+            ]
+        ]
+    },
+    {
+        "id": "a7872e035235bb5b",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "d4b5416a.9c25f",
+        "order": 3,
+        "width": 15,
+        "height": 1,
+        "name": "OPC订阅节点",
+        "label": "OPC订阅状态",
+        "format": "{{msg.topic}} : {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1140,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "0c25386d0300ae51",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "d4b5416a.9c25f",
+        "order": 8,
+        "width": 15,
+        "height": 1,
+        "name": "错误捕捉",
+        "label": "",
+        "format": "发生错误的节点：{{msg.error.sourcex.name}} 错误说明：{{msg.error.message}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1260,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b7a5165b73f9c057",
+        "type": "ui_toast",
+        "z": "8b65fa03bdc21c8c",
+        "position": "dialog",
+        "displayTime": "10",
+        "highlight": "red",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1130,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6bc1fe9bc0a0e79",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_提示通知",
+        "links": [
+            "dd3cff27ae9710bf"
+        ],
+        "x": 995,
+        "y": 600,
+        "wires": [
+            [
+                "b7a5165b73f9c057"
+            ]
+        ]
+    },
+    {
+        "id": "2149d954feab3ae2",
+        "type": "ui_template",
+        "z": "8b65fa03bdc21c8c",
+        "group": "58db0902ed2767ef",
+        "name": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    table {\n        border-collapse: collapse;\n        width: 100%;\n    }\n\n    th,\n    td {\n        padding: 8px;\n        text-align: left;\n        border-bottom: 1px solid #ddd;\n        word-wrap: break-word;\n        max-width: 200px;\n    }\n\n    th {\n        background-color: #f2f2f2;\n    }\n</style>\n\n<table>\n    <tr>\n        <th style=\"width: 100px;\">参数</th>\n        <th style=\"width: 100px;\">内容</th>\n    </tr>\n    <tr>\n        <td>站点</td>\n        <td ng-bind-html=\"msg.payload.SITE\"></td>\n    </tr>\n    <tr>\n        <td>用户名</td>\n        <td ng-bind-html=\"msg.payload.NAME\"></td>\n    </tr>\n    <tr>\n        <td>密码</td>\n        <td ng-bind-html=\"msg.payload.PWD\"></td>\n    </tr>\n    <tr>\n        <td>资源</td>\n        <td ng-bind-html=\"msg.payload.RESOURCE\"></td>\n    </tr>\n    <tr>\n        <td>工序</td>\n        <td ng-bind-html=\"msg.payload.OPERATION\"></td>\n    </tr>\n    <tr>\n        <td>IP</td>\n        <td ng-bind-html=\"msg.payload.IP\"></td>\n    </tr>\n    <tr>\n        <td>端口号</td>\n        <td ng-bind-html=\"msg.payload.PORT\"></td>\n    </tr>\n    <tr>\n        <td>地址</td>\n        <td ng-bind-html=\"msg.payload.URL\"></td>\n    </tr>\n    <tr>\n        <td>格式</td>\n        <td ng-bind-html=\"msg.payload.ACTIVITY\"></td>\n    </tr>\n    <tr>\n        <td>QTY</td>\n        <td ng-bind-html=\"msg.payload.QTY\"></td>\n    </tr>\n    <tr>\n        <td>后缀</td>\n        <td ng-bind-html=\"msg.payload.Suffix\"></td>\n    </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1120,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd7d1b55e4377244",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_HTTP节点状态",
+        "links": [
+            "1eef3e000696d0a4"
+        ],
+        "x": 995,
+        "y": 140,
+        "wires": [
+            [
+                "be3557624aa8c8a7"
+            ]
+        ]
+    },
+    {
+        "id": "be3557624aa8c8a7",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "d4b5416a.9c25f",
+        "order": 6,
+        "width": 15,
+        "height": 1,
+        "name": "HTTP节点状态",
+        "label": "HTTP节点状态",
+        "format": "{{msg.topic}} : {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1140,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "14c371ca34ceb9b9",
+        "type": "ui_button",
+        "z": "8b65fa03bdc21c8c",
+        "name": "PLC重连",
+        "group": "6cc9b914691ffc49",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "PLC重连",
+        "tooltip": "从配置文件中读取最新配置",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ReadConfig",
+        "payloadType": "str",
+        "topic": "UI",
+        "topicType": "str",
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "5f46eb452c2df9d6"
+            ]
+        ]
+    },
+    {
+        "id": "5f46eb452c2df9d6",
+        "type": "link out",
+        "z": "8b65fa03bdc21c8c",
+        "name": "O_OPC重连",
+        "mode": "link",
+        "links": [
+            "540a9f71de74ec7a"
+        ],
+        "x": 325,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "f4a3d0b64eb9859b",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_OPCSubscribe",
+        "links": [
+            "7bc6b8821b3c9280"
+        ],
+        "x": 995,
+        "y": 20,
+        "wires": [
+            [
+                "a7872e035235bb5b"
+            ]
+        ]
+    },
+    {
+        "id": "94b2ecd6252e2ea1",
+        "type": "link in",
+        "z": "8b65fa03bdc21c8c",
+        "name": "I_OPCRead",
+        "links": [
+            "d5f1ed89997fea1f"
+        ],
+        "x": 995,
+        "y": 100,
+        "wires": [
+            [
+                "3dee907d5ec51cdf"
+            ]
+        ]
+    },
+    {
+        "id": "16c1703341a10303",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "d4b5416a.9c25f",
+        "order": 4,
+        "width": 15,
+        "height": 1,
+        "name": "OPC写入节点",
+        "label": "OPC写入状态",
+        "format": "{{msg.topic}} : {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1140,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3dee907d5ec51cdf",
+        "type": "ui_text",
+        "z": "8b65fa03bdc21c8c",
+        "group": "d4b5416a.9c25f",
+        "order": 5,
+        "width": 15,
+        "height": 1,
+        "name": "OPC读取节点",
+        "label": "OPC读取状态",
+        "format": "{{msg.topic}} : {{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1140,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "6dc01cac.5c4bf4",
+        "type": "file in",
+        "z": "a0274cc0.46c5b",
+        "name": "",
+        "filename": "D:\\MES\\Config\\MESConfig.json",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "0e19345996850ebe",
+                "5c4baa8c24aa0608"
+            ]
+        ]
+    },
+    {
+        "id": "0824decefca403b1",
+        "type": "inject",
+        "z": "a0274cc0.46c5b",
+        "name": "读取配置文件",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 200,
+        "wires": [
+            [
+                "6dc01cac.5c4bf4"
+            ]
+        ]
+    },
+    {
+        "id": "de363d9c049ad7f5",
+        "type": "link in",
+        "z": "a0274cc0.46c5b",
+        "name": "I_读取配置",
+        "links": [
+            "2bb51e73736018b4"
+        ],
+        "x": 175,
+        "y": 140,
+        "wires": [
+            [
+                "6dc01cac.5c4bf4"
+            ]
+        ]
+    },
+    {
+        "id": "25fee03870bf69a9",
+        "type": "xml",
+        "z": "a0274cc0.46c5b",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 810,
+        "y": 320,
+        "wires": [
+            [
+                "ccd8c0f5d4e3a2c4"
+            ]
+        ]
+    },
+    {
+        "id": "ccd8c0f5d4e3a2c4",
+        "type": "change",
+        "z": "a0274cc0.46c5b",
+        "name": "删除XML前缀",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 380,
+        "wires": [
+            [
+                "d4e84332033911f1"
+            ]
+        ]
+    },
+    {
+        "id": "d4e84332033911f1",
+        "type": "change",
+        "z": "a0274cc0.46c5b",
+        "name": "设定xml_Login",
+        "rules": [
+            {
+                "t": "set",
+                "p": "xml_Login",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "读取配置成功",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 440,
+        "wires": [
+            [
+                "895044d3cb2024f1"
+            ]
+        ]
+    },
+    {
+        "id": "5c4baa8c24aa0608",
+        "type": "function",
+        "z": "a0274cc0.46c5b",
+        "name": "设定XML",
+        "func": "var mesConfig = JSON.parse(msg.payload);\n\nvar msgLogin = global.get('json_Login')\nfor (var prop in msgLogin.PRODUCTION_REQUEST.USER) {\n    if (mesConfig.hasOwnProperty(prop)) {\n        msgLogin.PRODUCTION_REQUEST.USER[prop] = mesConfig[prop];\n    }\n}\n\nvar msgCheckin = global.get('json_Checkin')\nmsgCheckin.PRODUCTION_REQUEST.START.SFC_LIST.SFC[\"USER\"] = mesConfig[\"NAME\"];\nfor (var prop in msgCheckin.PRODUCTION_REQUEST.START.SFC_LIST.SFC) {\n    if (mesConfig.hasOwnProperty(prop)) {\n        msgCheckin.PRODUCTION_REQUEST.START.SFC_LIST.SFC[prop] = mesConfig[prop];\n    }\n}\n\nvar msgPass = global.get('json_Pass')\nmsgPass.PRODUCTION_REQUEST.COMPLETE.SFC_LIST.SFC[\"USER\"] = mesConfig[\"NAME\"];\nfor (var prop in msgPass.PRODUCTION_REQUEST.COMPLETE.SFC_LIST.SFC) {\n    if (mesConfig.hasOwnProperty(prop)) {\n        msgPass.PRODUCTION_REQUEST.COMPLETE.SFC_LIST.SFC[prop] = mesConfig[prop];\n    }\n}\n\nvar msgFail = global.get('json_Fail')\nmsgFail.PRODUCTION_REQUEST.NC_LOG_COMPLETE[\"OWNER\"] = mesConfig[\"NAME\"];\nfor (var prop in msgFail.PRODUCTION_REQUEST.NC_LOG_COMPLETE) {\n    if (mesConfig.hasOwnProperty(prop)) {\n        msgFail.PRODUCTION_REQUEST.NC_LOG_COMPLETE[prop] = mesConfig[prop];\n    }\n}\n\nvar mesUrl = mesConfig.IP + \":\" + mesConfig.PORT + \"\" + mesConfig.URL;\nglobal.set('MESurl', mesUrl);\nvar suffix = mesConfig.Suffix;\nglobal.set('Suffix', suffix);\n\nreturn {payload:msgLogin};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// 部署节点后，此处添加的代码将运行一次。 \nglobal.set('json_Login', { \"PRODUCTION_REQUEST\": { \"USER\": { \"SITE\": \"\", \"NAME\": \"\", \"PWD\": \"\" } } });\nglobal.set('json_Checkin', { \"PRODUCTION_REQUEST\": { \"START\": { \"SFC_LIST\": { \"SFC\": { \"SITE\": \"\", \"ACTIVITY\": \"XML\", \"ID\": \"\", \"RESOURCE\": \"\", \"OPERATION\": \"\", \"USER\": \"\", \"QTY\": \"1\", \"DATE_TIME\": \"\" } } } } });\nglobal.set('json_Pass', { \"PRODUCTION_REQUEST\": { \"COMPLETE\": { \"SFC_LIST\": { \"SFC\": { \"SITE\": \"\", \"ACTIVITY\": \"XML\", \"ID\": \"\", \"RESOURCE\": \"\", \"OPERATION\": \"\", \"USER\": \"\", \"QTY\": \"1\", \"DATE_TIME\": \"\", \"DATE_STARTED\": \"\" } } } } });\nglobal.set('json_Fail', { \"PRODUCTION_REQUEST\": { \"NC_LOG_COMPLETE\": { \"SITE\": \"\", \"OWNER\": \"\", \"NC_CONTEXT\": \"\", \"QTY\": \"1\", \"IDENTIFIER\": \"\", \"FAILURE_ID\": \"\", \"DEFECT_COUNT\": \"1\", \"COMMENTS\": \"\", \"DATE_TIME\": \"\", \"RESOURCE\": \"\", \"OPERATION\": \"\", \"ROOT_CAUSE_OPER\": \"\", \"NC_CODE\": \"\", \"ACTIVITY\": \"XML\" } } });\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 260,
+        "wires": [
+            [
+                "25fee03870bf69a9"
+            ]
+        ]
+    },
+    {
+        "id": "895044d3cb2024f1",
+        "type": "link out",
+        "z": "a0274cc0.46c5b",
+        "name": "O_配置读取结果",
+        "mode": "link",
+        "links": [
+            "09a6c99b2273e7c3",
+            "0a7d959ecdde5aa5"
+        ],
+        "x": 1105,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "0e19345996850ebe",
+        "type": "function",
+        "z": "a0274cc0.46c5b",
+        "name": "UI显示",
+        "func": "let result = \"\";\nmsg.payload = JSON.parse(msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 200,
+        "wires": [
+            [
+                "2660984ffa09d273"
+            ]
+        ]
+    },
+    {
+        "id": "2660984ffa09d273",
+        "type": "link out",
+        "z": "a0274cc0.46c5b",
+        "name": "O_当前配置",
+        "mode": "link",
+        "links": [
+            "4ca44a73020ad8bd"
+        ],
+        "x": 995,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "93d8a766.c57aa8",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "手动添加变量数据",
+        "func": "// Tested with Prosys static variables\nmsg.topic = \"multiple\";\nmsg.payload = [];\n//进站信号\nmsg.payload.push({ nodeId: \"ns=4;s=S3_MES_SEND.nFun\" });\n//进板PCB板二维码存储\nmsg.payload.push({ nodeId: \"ns=4;s=S3_MES_SEND.Code\" });\n//出站信号\nmsg.payload.push({ nodeId: \"ns=4;s=S5_MES_SEND.nFun\" });\n//出板PCB板二维码存储\nmsg.payload.push({ nodeId: \"ns=4;s=S5_MES_SEND.Code\" });\n//针数\nmsg.payload.push({ nodeId: \"ns=4;s=OPC_PinNum\" });\n//插针结果\nmsg.payload.push({ nodeId: \"ns=4;s=OPC_PinResult\" });\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "ba45b808.7ff578"
+            ]
+        ]
+    },
+    {
+        "id": "2d805dd3.473632",
+        "type": "inject",
+        "z": "7008401a.b94db",
+        "name": "Subscribe multiple",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "multiple",
+        "payload": "",
+        "payloadType": "str",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "93d8a766.c57aa8"
+            ]
+        ]
+    },
+    {
+        "id": "ba45b808.7ff578",
+        "type": "OpcUa-Client",
+        "z": "7008401a.b94db",
+        "endpoint": "4a9e29dc8a75e9f8",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "name": "ClientSubscribe",
+        "x": 580,
+        "y": 240,
+        "wires": [
+            [
+                "c6de0a550ab61c28",
+                "7d5e9db279efd96d"
+            ]
+        ]
+    },
+    {
+        "id": "20bed05d.ee2b7",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "监听信号",
+        "func": "if (msg.payload && msg.payload.value) {\n  if (msg.payload.value.value != 0){\n    var value = msg.payload.value.value;\n    msg.payload = value;\n    return msg;\n  }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 240,
+        "wires": [
+            [
+                "a89818c2f5c7e722",
+                "d90381ce60c35b59"
+            ]
+        ]
+    },
+    {
+        "id": "d7570c98.640e1",
+        "type": "comment",
+        "z": "7008401a.b94db",
+        "name": "Instructions",
+        "info": "# topic\nmsg.topic must be \"multiple\"\n\n# payload\nmsg.paylod contains array of nodeId objects\n{\"nodeId\": \"ns=1;s=NodeIdString\"\n",
+        "x": 90,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "75fefe32.3e47d",
+        "type": "status",
+        "z": "7008401a.b94db",
+        "name": "OPC Status",
+        "scope": [
+            "ba45b808.7ff578"
+        ],
+        "x": 110,
+        "y": 400,
+        "wires": [
+            [
+                "80db6de26d45a81e"
+            ]
+        ]
+    },
+    {
+        "id": "a89818c2f5c7e722",
+        "type": "switch",
+        "z": "7008401a.b94db",
+        "name": "上传MES命令",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "S3_MES_SEND.nFun",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "S5_MES_SEND.nFun",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1300,
+        "y": 200,
+        "wires": [
+            [
+                "a1c6d7b9cf1654e7"
+            ],
+            [
+                "ca1ba2294b88a805"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "80db6de26d45a81e",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "OPC状态监测",
+        "func": "if (msg.status.text != flow.get(\"OPCSubscribe\")) {\n  flow.set(\"OPCSubscribe\", msg.status.text);\n    msg.payload = msg.status.text\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "flow.set(\"OPCStatus\", \"start\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 400,
+        "wires": [
+            [
+                "7bc6b8821b3c9280"
+            ]
+        ]
+    },
+    {
+        "id": "f0f0fbfbd06e7f3e",
+        "type": "OpcUa-Client",
+        "z": "7008401a.b94db",
+        "endpoint": "4a9e29dc8a75e9f8",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "name": "ClientWrite",
+        "x": 2110,
+        "y": 580,
+        "wires": [
+            [
+                "852fdda34d015ff9"
+            ]
+        ]
+    },
+    {
+        "id": "6b24bb32e76afe35",
+        "type": "OpcUa-Item",
+        "z": "7008401a.b94db",
+        "item": "ns=4;s=S3_MES_REC.nFun",
+        "datatype": "UInt16",
+        "value": "",
+        "name": "可否进站",
+        "x": 1880,
+        "y": 580,
+        "wires": [
+            [
+                "f0f0fbfbd06e7f3e"
+            ]
+        ]
+    },
+    {
+        "id": "7bc6b8821b3c9280",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_OPCSubscribe",
+        "mode": "link",
+        "links": [
+            "f4a3d0b64eb9859b"
+        ],
+        "x": 395,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "7c34664e54f2613e",
+        "type": "OpcUa-Item",
+        "z": "7008401a.b94db",
+        "item": "ns=4;s=S5_MES_REC.nFun",
+        "datatype": "UInt16",
+        "value": "",
+        "name": "可否出站",
+        "x": 1880,
+        "y": 680,
+        "wires": [
+            [
+                "f0f0fbfbd06e7f3e"
+            ]
+        ]
+    },
+    {
+        "id": "d9b1b81241cb60f5",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_进站信号",
+        "mode": "link",
+        "links": [
+            "dc1bac39df780b98"
+        ],
+        "x": 1665,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "88ddbb54122f9688",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_出站信号",
+        "mode": "link",
+        "links": [
+            "7073f94e7a82bc55"
+        ],
+        "x": 1855,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ca1ba2294b88a805",
+        "type": "switch",
+        "z": "7008401a.b94db",
+        "name": "Checkout",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 1520,
+        "y": 340,
+        "wires": [
+            [
+                "14aa0d57eb35f4cd"
+            ],
+            [
+                "9782df8341a44a04"
+            ],
+            [
+                "5680c06fb0f663c9"
+            ]
+        ]
+    },
+    {
+        "id": "14aa0d57eb35f4cd",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "合格",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1690,
+        "y": 300,
+        "wires": [
+            [
+                "88ddbb54122f9688"
+            ]
+        ]
+    },
+    {
+        "id": "9782df8341a44a04",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "不合格",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1690,
+        "y": 340,
+        "wires": [
+            [
+                "88ddbb54122f9688"
+            ]
+        ]
+    },
+    {
+        "id": "5680c06fb0f663c9",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "其他",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "Error Result",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1689,
+        "y": 377,
+        "wires": [
+            [
+                "88ddbb54122f9688"
+            ]
+        ]
+    },
+    {
+        "id": "a1c6d7b9cf1654e7",
+        "type": "switch",
+        "z": "7008401a.b94db",
+        "name": "Checkin",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1520,
+        "y": 140,
+        "wires": [
+            [
+                "d9b1b81241cb60f5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c6de0a550ab61c28",
+        "type": "switch",
+        "z": "7008401a.b94db",
+        "name": "筛选节点",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "S3_MES_SEND.Code",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "S5_MES_SEND.Code",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "OPC_PinNum",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "OPC_PinResult",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 780,
+        "y": 160,
+        "wires": [
+            [
+                "7f4642adc7facf6f"
+            ],
+            [
+                "60f68c8480fe1db9"
+            ],
+            [
+                "74f59ec5fd236c45"
+            ],
+            [
+                "22cc018597c2c507"
+            ],
+            [
+                "20bed05d.ee2b7"
+            ]
+        ]
+    },
+    {
+        "id": "7f4642adc7facf6f",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "S3_PCB二维码",
+        "rules": [
+            {
+                "t": "set",
+                "p": "S3PCBCode",
+                "pt": "global",
+                "to": "payload.value.value",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.value.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 60,
+        "wires": [
+            [
+                "37ed53418f8aa019"
+            ]
+        ]
+    },
+    {
+        "id": "22cc018597c2c507",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "插针数据",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PCBResult",
+                "pt": "global",
+                "to": "payload.value.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37ed53418f8aa019",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_进站条码",
+        "mode": "link",
+        "links": [
+            "f2a389f512dc5492"
+        ],
+        "x": 1155,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e730b37d28107679",
+        "type": "link in",
+        "z": "7008401a.b94db",
+        "name": "I_MES结果下发",
+        "links": [
+            "c66fdd587b5909a7"
+        ],
+        "x": 1205,
+        "y": 640,
+        "wires": [
+            [
+                "d2b6dd910db0a165",
+                "d90381ce60c35b59"
+            ]
+        ]
+    },
+    {
+        "id": "8fff0cee639d409a",
+        "type": "switch",
+        "z": "7008401a.b94db",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Login",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Checkin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Pass",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Fail",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 1670,
+        "y": 580,
+        "wires": [
+            [
+                "7b706fe93720f813"
+            ],
+            [
+                "6b24bb32e76afe35"
+            ],
+            [
+                "7c34664e54f2613e"
+            ],
+            [
+                "4ab5cc6dc2c5a791"
+            ]
+        ]
+    },
+    {
+        "id": "7b706fe93720f813",
+        "type": "OpcUa-Item",
+        "z": "7008401a.b94db",
+        "item": "ns=4;s=ACCOUNT_VERIFY.nFun",
+        "datatype": "UInt16",
+        "value": "",
+        "name": "用户验证",
+        "x": 1880,
+        "y": 480,
+        "wires": [
+            [
+                "f0f0fbfbd06e7f3e"
+            ]
+        ]
+    },
+    {
+        "id": "d2b6dd910db0a165",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "分流提示",
+        "func": "var msg1 = { topic: msg.topic, payload: msg.payload }\nvar msg2 = {topic: msg.topic, payload : msg.message,message : msg.payload}\n\nreturn [msg1, msg2 ];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 640,
+        "wires": [
+            [
+                "8fff0cee639d409a"
+            ],
+            [
+                "54861bfd71bc31f4"
+            ]
+        ]
+    },
+    {
+        "id": "d2a8e9759fd5f29f",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_MES结果",
+        "mode": "link",
+        "links": [
+            "5d1a5bde7820d3b3"
+        ],
+        "x": 2545,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "60f68c8480fe1db9",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "S3_PCB二维码",
+        "rules": [
+            {
+                "t": "set",
+                "p": "S5PCBCode",
+                "pt": "global",
+                "to": "payload.value.value",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.value.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 100,
+        "wires": [
+            [
+                "db307e85c1ca0da1"
+            ]
+        ]
+    },
+    {
+        "id": "f899a087ca0e2beb",
+        "type": "OpcUa-Client",
+        "z": "7008401a.b94db",
+        "endpoint": "4a9e29dc8a75e9f8",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "200",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "name": "ClientRead",
+        "x": 2430,
+        "y": 580,
+        "wires": [
+            [
+                "d2a8e9759fd5f29f"
+            ]
+        ]
+    },
+    {
+        "id": "852fdda34d015ff9",
+        "type": "switch",
+        "z": "7008401a.b94db",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "MarkHeart",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 2270,
+        "y": 580,
+        "wires": [
+            [],
+            [
+                "f899a087ca0e2beb"
+            ]
+        ]
+    },
+    {
+        "id": "2c1c8d67f804bb97",
+        "type": "OpcUa-Item",
+        "z": "7008401a.b94db",
+        "d": true,
+        "item": "ns=4;s=S5_MES_REC.Code",
+        "datatype": "String",
+        "value": "",
+        "name": "出站提示",
+        "x": 1879,
+        "y": 720,
+        "wires": [
+            [
+                "f0f0fbfbd06e7f3e"
+            ]
+        ]
+    },
+    {
+        "id": "f9974473c389d38a",
+        "type": "OpcUa-Item",
+        "z": "7008401a.b94db",
+        "d": true,
+        "item": "ns=4;s=S3_MES_REC.Code",
+        "datatype": "String",
+        "value": "",
+        "name": "进站提示",
+        "x": 1880,
+        "y": 620,
+        "wires": [
+            [
+                "f0f0fbfbd06e7f3e"
+            ]
+        ]
+    },
+    {
+        "id": "94596657d0c0e36b",
+        "type": "OpcUa-Item",
+        "z": "7008401a.b94db",
+        "d": true,
+        "item": "ns=4;s=ACCOUNT_VERIFY.Code",
+        "datatype": "String",
+        "value": "",
+        "name": "验证提示",
+        "x": 1880,
+        "y": 520,
+        "wires": [
+            [
+                "f0f0fbfbd06e7f3e"
+            ]
+        ]
+    },
+    {
+        "id": "db307e85c1ca0da1",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_出站条码",
+        "mode": "link",
+        "links": [
+            "fa5a2f511277ae41"
+        ],
+        "x": 1155,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d90381ce60c35b59",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "步骤记录",
+        "func": "\nif (msg.topic.includes('S3_MES_SEND.nFun')) {\n    switch (msg.payload) {\n        case 1:\n            msg.payload = `进站条码【${global.get(\"S3PCBCode\")}】请求进站`;\n            break;\n        default:\n            msg.payload = `进站条码【${global.get(\"S3PCBCode\")}】进站PLC非法指令:`+ msg.payload;\n    }\n} \nif (msg.topic.includes('S5_MES_SEND.nFun')) {\n    switch (msg.payload) {\n        case 1:\n            msg.payload = `出站条码【${global.get(\"S5PCBCode\")}】产品PASS,请求出站`;\n            break;\n        case 2:\n            msg.payload = `出站条码【${global.get(\"S5PCBCode\")}】产品FAIL,请求出站`;\n            break;\n        default:\n            msg.payload = `出站条码【${global.get(\"S5PCBCode\")}】PLC非法指令:` + msg.payload;\n    }\n} \nif (msg.topic.includes('Login')) {\n    switch (msg.payload) {\n        case 1:\n            msg.payload = `用户【${global.get(\"json_Checkin\").PRODUCTION_REQUEST.START.SFC_LIST.SFC.USER }】登录成功` ;\n            break;\n        case 2:\n            msg.payload = `用户【${global.get(\"json_Checkin\").PRODUCTION_REQUEST.START.SFC_LIST.SFC.USER}】用户登录失败 ` + msg.message;\n            break;\n        case 3:\n            msg.payload = `用户【${global.get(\"json_Checkin\").PRODUCTION_REQUEST.START.SFC_LIST.SFC.USER}】登录响应超时 ` + msg.message;\n            break;\n        default:\n            msg.payload = `用户【${global.get(\"json_Checkin\").PRODUCTION_REQUEST.START.SFC_LIST.SFC.USER}】PC非法登录指令: ` + msg.payload;\n    }\n} \nif (msg.topic.includes('Checkin')) {\n    switch (msg.payload) {\n        case 1:\n            msg.payload = `条码【${global.get(\"S3PCBCode\")}】允许进站`;\n            break;\n        case 2:\n            msg.payload = `条码【${global.get(\"S3PCBCode\")}】禁止进站 ` + msg.message;\n            break;\n        case 3:\n            msg.payload = `条码【${global.get(\"S3PCBCode\")}】进站响应超时 ` + msg.message;\n            break;\n        default:\n            msg.payload = `条码【${global.get(\"S3PCBCode\")}】PC非法进站指令: ` + msg.payload;\n    }\n} \nif (msg.topic.includes('Pass')) {\n    switch (msg.payload) {\n        case 1:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】OK允许出站`;\n            break;\n        case 2:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】OK禁止出站 ` + msg.message;\n            break;\n        case 3:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】OK出站响应超时 ` + msg.message;\n            break;\n        default:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】PC非法OK出站指令: ` + msg.payload;\n    }\n} \nif (msg.topic.includes('Fail')) {\n    switch (msg.payload) {\n        case 1:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】NG允许出站 ` + msg.message;\n            break;\n        case 2:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】NG禁止出站 ` + msg.message;\n            break;\n        case 3:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】NG出站响应超时 ` + msg.message;\n            break;\n        default:\n            msg.payload = `条码【${global.get(\"S5PCBCode\")}】PC非法NG出站指令: ` + msg.payload;\n    }\n} \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 420,
+        "wires": [
+            [
+                "f86c4909e26c5790"
+            ]
+        ]
+    },
+    {
+        "id": "f86c4909e26c5790",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_步骤记录",
+        "mode": "link",
+        "links": [
+            "bc940c97e962122c"
+        ],
+        "x": 1475,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "f6d4d9cf7bfcc503",
+        "type": "OpcUa-Item",
+        "z": "7008401a.b94db",
+        "item": "ns=4;s=S3_MES_REC.nMarkHeart",
+        "datatype": "UInt16",
+        "value": "1",
+        "name": "MachineBeat",
+        "x": 1890,
+        "y": 420,
+        "wires": [
+            [
+                "f0f0fbfbd06e7f3e"
+            ]
+        ]
+    },
+    {
+        "id": "02eb12f8d8b7289e",
+        "type": "inject",
+        "z": "7008401a.b94db",
+        "d": true,
+        "name": "1s",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1730,
+        "y": 420,
+        "wires": [
+            [
+                "f6d4d9cf7bfcc503"
+            ]
+        ]
+    },
+    {
+        "id": "54861bfd71bc31f4",
+        "type": "switch",
+        "z": "7008401a.b94db",
+        "name": "提示",
+        "property": "message",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1690,
+        "y": 780,
+        "wires": [
+            [],
+            [
+                "dd3cff27ae9710bf"
+            ]
+        ]
+    },
+    {
+        "id": "dd3cff27ae9710bf",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_提示通知",
+        "mode": "link",
+        "links": [
+            "f6bc1fe9bc0a0e79"
+        ],
+        "x": 1835,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "4ab5cc6dc2c5a791",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "置1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1710,
+        "y": 680,
+        "wires": [
+            [
+                "7c34664e54f2613e"
+            ]
+        ]
+    },
+    {
+        "id": "74f59ec5fd236c45",
+        "type": "change",
+        "z": "7008401a.b94db",
+        "name": "插针数",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PCBNum",
+                "pt": "global",
+                "to": "payload.value.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d5e9db279efd96d",
+        "type": "debug",
+        "z": "7008401a.b94db",
+        "name": "节点读取",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "19a957aa.4ef46",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "OPC重连",
+        "func": "msg.topic=\"Reconnect\";\nmsg.action=\"reconnect\";\nmsg.OpcUaEndpoint = {\n    credentials: {},\n    endpoint: 'opc.tcp://localhost:4840',\n    securityPolicy: 'None',\n    securityMode: 'None',\n    login: false,\n    user: undefined,\n    password: undefined \n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "ba45b808.7ff578",
+                "f0f0fbfbd06e7f3e",
+                "f899a087ca0e2beb"
+            ]
+        ]
+    },
+    {
+        "id": "540a9f71de74ec7a",
+        "type": "link in",
+        "z": "7008401a.b94db",
+        "name": "I_OPC重连",
+        "links": [
+            "5f46eb452c2df9d6"
+        ],
+        "x": 265,
+        "y": 180,
+        "wires": [
+            [
+                "19a957aa.4ef46"
+            ]
+        ]
+    },
+    {
+        "id": "53cae5e0b03e63b0",
+        "type": "status",
+        "z": "7008401a.b94db",
+        "name": "OPC Status",
+        "scope": [
+            "f0f0fbfbd06e7f3e"
+        ],
+        "x": 110,
+        "y": 440,
+        "wires": [
+            [
+                "68dafb52bae18cd0"
+            ]
+        ]
+    },
+    {
+        "id": "68dafb52bae18cd0",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "OPC状态监测",
+        "func": "if (msg.status.text != flow.get(\"OPCWrite\")) {\n  flow.set(\"OPCWrite\", msg.status.text);\n    msg.payload = msg.status.text\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "flow.set(\"OPCStatus\", \"start\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 440,
+        "wires": [
+            [
+                "d0b677c548af603c"
+            ]
+        ]
+    },
+    {
+        "id": "b809fbc4c16539f7",
+        "type": "status",
+        "z": "7008401a.b94db",
+        "name": "OPC Status",
+        "scope": [
+            "f899a087ca0e2beb"
+        ],
+        "x": 110,
+        "y": 480,
+        "wires": [
+            [
+                "aa5f3179dc9bfd8a"
+            ]
+        ]
+    },
+    {
+        "id": "aa5f3179dc9bfd8a",
+        "type": "function",
+        "z": "7008401a.b94db",
+        "name": "OPC状态监测",
+        "func": "if (msg.status.text != flow.get(\"OPCRead\")) {\n  flow.set(\"OPCRead\", msg.status.text);\n    msg.payload = msg.status.text\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "flow.set(\"OPCStatus\", \"start\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 480,
+        "wires": [
+            [
+                "d5f1ed89997fea1f"
+            ]
+        ]
+    },
+    {
+        "id": "d0b677c548af603c",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_OPCWrite",
+        "mode": "link",
+        "links": [
+            "a642c2c64f764611"
+        ],
+        "x": 395,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d5f1ed89997fea1f",
+        "type": "link out",
+        "z": "7008401a.b94db",
+        "name": "O_OPCRead",
+        "mode": "link",
+        "links": [
+            "94b2ecd6252e2ea1"
+        ],
+        "x": 395,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "8c06b0a565893d3d",
+        "type": "http request",
+        "z": "71c3442d.65d4dc",
+        "name": "POST请求",
+        "method": "POST",
+        "ret": "bin",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Content-Type",
+                "keyValue": "",
+                "valueType": "application/xml",
+                "valueValue": ""
+            }
+        ],
+        "x": 1370,
+        "y": 420,
+        "wires": [
+            [
+                "162036d8d662489f",
+                "1e7e8d74fa77975c"
+            ]
+        ]
+    },
+    {
+        "id": "fe33f4145e106484",
+        "type": "switch",
+        "z": "71c3442d.65d4dc",
+        "name": "是否放行",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "</b>Y",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "</b>N",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 1740,
+        "y": 360,
+        "wires": [
+            [
+                "7112c8b21f3923ab"
+            ],
+            [
+                "ddcae20aa1e21ac7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "162036d8d662489f",
+        "type": "switch",
+        "z": "71c3442d.65d4dc",
+        "name": "HTTP状态判定",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1540,
+        "y": 420,
+        "wires": [
+            [
+                "fe33f4145e106484"
+            ],
+            [
+                "2cfe0699717b7b97"
+            ]
+        ]
+    },
+    {
+        "id": "2cfe0699717b7b97",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "需要重试",
+        "func": "msg.message = \"服务器超时 : \" + msg.statusCode;\nmsg.payload = 3;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2240,
+        "y": 500,
+        "wires": [
+            [
+                "c66fdd587b5909a7"
+            ]
+        ]
+    },
+    {
+        "id": "03cae295773afa84",
+        "type": "converter",
+        "z": "71c3442d.65d4dc",
+        "name": "转码",
+        "from": "GBK",
+        "x": 2090,
+        "y": 380,
+        "wires": [
+            [
+                "bf75286cae5bb1bc"
+            ]
+        ]
+    },
+    {
+        "id": "bf75286cae5bb1bc",
+        "type": "html",
+        "z": "71c3442d.65d4dc",
+        "name": "HTML提取td",
+        "property": "payload",
+        "outproperty": "payload",
+        "tag": "td",
+        "ret": "text",
+        "as": "single",
+        "x": 2150,
+        "y": 420,
+        "wires": [
+            [
+                "829f8fd574d936ca"
+            ]
+        ]
+    },
+    {
+        "id": "829f8fd574d936ca",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "提取MESSAGE",
+        "func": "msg.message = msg.payload[2]?.match(/<MESSAGE>([\\s\\S]*?)<\\/MESSAGE>/)[1];\nif(msg.result){\n    msg.payload = 1;\n}\nelse{\n    msg.payload = 2;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2220,
+        "y": 460,
+        "wires": [
+            [
+                "c66fdd587b5909a7"
+            ]
+        ]
+    },
+    {
+        "id": "0a7d959ecdde5aa5",
+        "type": "link in",
+        "z": "71c3442d.65d4dc",
+        "name": "I_用户验证",
+        "links": [
+            "895044d3cb2024f1",
+            "9e51ba7f96890be9"
+        ],
+        "x": 155,
+        "y": 60,
+        "wires": [
+            [
+                "b648424457b9a527"
+            ]
+        ]
+    },
+    {
+        "id": "3b9de299143847d1",
+        "type": "change",
+        "z": "71c3442d.65d4dc",
+        "name": "设定URL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "url",
+                "pt": "msg",
+                "to": "MESurl",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 420,
+        "wires": [
+            [
+                "8c06b0a565893d3d",
+                "2a82290c2628b65e"
+            ]
+        ]
+    },
+    {
+        "id": "b648424457b9a527",
+        "type": "change",
+        "z": "71c3442d.65d4dc",
+        "name": "用户验证",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "xml_Login",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Login",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 60,
+        "wires": [
+            [
+                "3b9de299143847d1"
+            ]
+        ]
+    },
+    {
+        "id": "dc1bac39df780b98",
+        "type": "link in",
+        "z": "71c3442d.65d4dc",
+        "name": "I_进站信号",
+        "links": [
+            "d9b1b81241cb60f5",
+            "fe5018339f980edb"
+        ],
+        "x": 155,
+        "y": 180,
+        "wires": [
+            [
+                "c1223aa8165378fe"
+            ]
+        ]
+    },
+    {
+        "id": "7073f94e7a82bc55",
+        "type": "link in",
+        "z": "71c3442d.65d4dc",
+        "name": "I_出站信号",
+        "links": [
+            "6f08884e3a0717a3",
+            "88ddbb54122f9688"
+        ],
+        "x": 155,
+        "y": 620,
+        "wires": [
+            [
+                "15ae5bc7bf5173fe"
+            ]
+        ]
+    },
+    {
+        "id": "15ae5bc7bf5173fe",
+        "type": "switch",
+        "z": "71c3442d.65d4dc",
+        "name": "结果",
+        "property": "result",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 270,
+        "y": 620,
+        "wires": [
+            [
+                "d55ebe072779b112"
+            ],
+            [
+                "fcaae45d2ed36219"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e2d44c1d4ceb3093",
+        "type": "subflow:89637e7f20931a78",
+        "z": "71c3442d.65d4dc",
+        "name": "",
+        "x": 650,
+        "y": 420,
+        "wires": [
+            [
+                "135bc3b609365ca2"
+            ]
+        ]
+    },
+    {
+        "id": "c1223aa8165378fe",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "CheckinXML",
+        "func": "var msgCheckin = global.get('json_Checkin');\nmsgCheckin.PRODUCTION_REQUEST.START.SFC_LIST.SFC.ID = global.get('S3PCBCode');\nmsgCheckin.PRODUCTION_REQUEST.START.SFC_LIST.SFC.DATE_TIME = new Date();\nreturn { topic : \"Checkin\" , payload : msgCheckin }",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "e2d44c1d4ceb3093"
+            ]
+        ]
+    },
+    {
+        "id": "d55ebe072779b112",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "PassXML",
+        "func": "var msgPass = global.get('json_Pass');\nmsgPass.PRODUCTION_REQUEST.COMPLETE.SFC_LIST.SFC.ID = global.get('S5PCBCode');\nmsgPass.PRODUCTION_REQUEST.COMPLETE.SFC_LIST.SFC.DATE_TIME = new Date();\nreturn { topic: \"Pass\", payload: msgPass }\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 560,
+        "wires": [
+            [
+                "e2d44c1d4ceb3093"
+            ]
+        ]
+    },
+    {
+        "id": "fcaae45d2ed36219",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "FailXML",
+        "func": "var msgFail = global.get('json_Fail');\nmsgFail.PRODUCTION_REQUEST.NC_LOG_COMPLETE.NC_CONTEXT = global.get('S5PCBCode');\nmsgFail.PRODUCTION_REQUEST.NC_LOG_COMPLETE.DATE_TIME = new Date();\nreturn { topic: \"Fail\", payload: msgFail }\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 620,
+        "wires": [
+            [
+                "e2d44c1d4ceb3093"
+            ]
+        ]
+    },
+    {
+        "id": "d180ebf8a91cc3f7",
+        "type": "switch",
+        "z": "71c3442d.65d4dc",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Checkin",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Pass",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Fail",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 910,
+        "y": 420,
+        "wires": [
+            [
+                "3b9de299143847d1"
+            ],
+            [
+                "27970dfae7eb3973"
+            ],
+            [
+                "129550313f868bd2"
+            ]
+        ]
+    },
+    {
+        "id": "135bc3b609365ca2",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "后缀",
+        "func": "msg.payload = msg.payload + global.get(\"Suffix\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 420,
+        "wires": [
+            [
+                "d180ebf8a91cc3f7"
+            ]
+        ]
+    },
+    {
+        "id": "27970dfae7eb3973",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "PASS参数",
+        "func": "let arr = global.get('PCBResult');\nlet num = global.get('PCBNum');\nlet result = \"\";\nlet okng ;\nfor (let i = 0; i < num; i++) {\n    if (arr[i]==1){\n        okng = \"OK\";\n    }\n    else{\n        okng = \"NG\";\n    }\n    result += `!第${i + 1}根针,压力结果,${okng}`;\n}\nmsg.payload = 'PASS' + msg.payload + '!PASS,PinInsertion,V1' + result\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 480,
+        "wires": [
+            [
+                "3b9de299143847d1"
+            ]
+        ]
+    },
+    {
+        "id": "129550313f868bd2",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "FAIL参数",
+        "func": "let arr = global.get('PCBResult');\nlet num = global.get('PCBNum');\nlet result = \"\";\nlet okng;\nfor (let i = 0; i < num; i++) {\n    if (arr[i] == 1) {\n        okng = \"OK\";\n    }\n    else {\n        okng = \"NG\";\n    }\n    result += `!第${i + 1}根针,压力结果,${okng}`;\n}\nmsg.payload = 'ERROR' + msg.payload + '!PASS,PinInsertion,V1' + result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 520,
+        "wires": [
+            [
+                "3b9de299143847d1"
+            ]
+        ]
+    },
+    {
+        "id": "c66fdd587b5909a7",
+        "type": "link out",
+        "z": "71c3442d.65d4dc",
+        "name": "O_MES结果下发",
+        "mode": "link",
+        "links": [
+            "e730b37d28107679"
+        ],
+        "x": 2375,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "7112c8b21f3923ab",
+        "type": "change",
+        "z": "71c3442d.65d4dc",
+        "name": "真",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1890,
+        "y": 320,
+        "wires": [
+            [
+                "9c6466b587556948"
+            ]
+        ]
+    },
+    {
+        "id": "ddcae20aa1e21ac7",
+        "type": "change",
+        "z": "71c3442d.65d4dc",
+        "name": "假",
+        "rules": [
+            {
+                "t": "set",
+                "p": "result",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1890,
+        "y": 360,
+        "wires": [
+            [
+                "9c6466b587556948"
+            ]
+        ]
+    },
+    {
+        "id": "9c6466b587556948",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "name": "结果处理",
+        "func": "if(msg.topic == 'Fail'){\n    msg.result = !msg.result;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 340,
+        "wires": [
+            [
+                "03cae295773afa84"
+            ]
+        ]
+    },
+    {
+        "id": "2a82290c2628b65e",
+        "type": "link out",
+        "z": "71c3442d.65d4dc",
+        "name": "O_发送内容",
+        "mode": "link",
+        "links": [
+            "51c652011e78aecc"
+        ],
+        "x": 1345,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b23cf4d9d56bbd77",
+        "type": "link out",
+        "z": "71c3442d.65d4dc",
+        "name": "O_接收内容",
+        "mode": "link",
+        "links": [
+            "302606b8c670962d"
+        ],
+        "x": 1485,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "beaf29b27d79fbc1",
+        "type": "status",
+        "z": "71c3442d.65d4dc",
+        "g": "27d9ce553525ef21",
+        "name": "HTTP Status",
+        "scope": [
+            "8c06b0a565893d3d"
+        ],
+        "x": 1230,
+        "y": 140,
+        "wires": [
+            [
+                "5495eb4eccaaa42a"
+            ]
+        ]
+    },
+    {
+        "id": "5495eb4eccaaa42a",
+        "type": "function",
+        "z": "71c3442d.65d4dc",
+        "g": "27d9ce553525ef21",
+        "name": "HTTP状态监测",
+        "func": "if (msg.status.text != global.get(\"HTTPStatus\")) {\n  global.set(\"HTTPStatus\", msg.status.text);\n    msg.payload = msg.status.text\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "flow.set(\"OPCStatus\", \"start\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 140,
+        "wires": [
+            [
+                "1eef3e000696d0a4"
+            ]
+        ]
+    },
+    {
+        "id": "1eef3e000696d0a4",
+        "type": "link out",
+        "z": "71c3442d.65d4dc",
+        "g": "27d9ce553525ef21",
+        "name": "O_HTTP节点状态",
+        "mode": "link",
+        "links": [
+            "fd7d1b55e4377244"
+        ],
+        "x": 1525,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1e7e8d74fa77975c",
+        "type": "converter",
+        "z": "71c3442d.65d4dc",
+        "name": "转码",
+        "from": "GBK",
+        "x": 1450,
+        "y": 380,
+        "wires": [
+            [
+                "b23cf4d9d56bbd77"
+            ]
+        ]
+    },
+    {
+        "id": "5a976c3169c68224",
+        "type": "serial in",
+        "z": "fa85aa2ebd8bfb84",
+        "name": "",
+        "serial": "31125c21.b742f4",
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "0167e34591d2abc4"
+            ]
+        ]
+    },
+    {
+        "id": "0167e34591d2abc4",
+        "type": "change",
+        "z": "fa85aa2ebd8bfb84",
+        "name": "物料扫码",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MaterialCode",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "物料扫码结果",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "26d6802a1e01992f"
+            ]
+        ]
+    },
+    {
+        "id": "26d6802a1e01992f",
+        "type": "link out",
+        "z": "fa85aa2ebd8bfb84",
+        "name": "O_物料扫码",
+        "mode": "link",
+        "links": [
+            "024e984029a838d5"
+        ],
+        "x": 445,
+        "y": 200,
+        "wires": []
+    }
+]

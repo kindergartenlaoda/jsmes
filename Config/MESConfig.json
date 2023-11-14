@@ -1,0 +1,15 @@
+{
+  "NAME": "A155", 
+  "PWD": "111111",
+  "SITE": "SZ53",
+  "OPERATION": "DZ-SBJC",
+  "RESOURCE": "SBJC",
+  "NC_CODE": "TBD",
+  "IP": "10.8.5.56",
+  "PORT": 90,
+  "URL": "/api/DeviceInterface/IntegrationServlet?InterType=XML",
+  "ACTIVITY": "XML",
+  "QTY": 1,
+  "Suffix": "!erpautogy03!1234567@byd"
+}
+

@@ -1,0 +1,38 @@
+{
+  "MESControl": {
+      "GET": "ns=2;s=KepwareOPC.BYD.MES Control.GET",
+      "POST": "ns=2;s=KepwareOPC.BYD.MES Control.POST",
+      "STATE": "ns=2;s=KepwareOPC.BYD.MES Control.STATE"
+  }, 
+  "QualityInformation": {
+      "Peel": "ns=2;s=KepwareOPC.BYD.QualityInformation.Peel",
+      "Crimp": "ns=2;s=KepwareOPC.BYD.QualityInformation.Crimp",
+      "Depth": "ns=2;s=KepwareOPC.BYD.QualityInformation.Depth",
+      "Concentricity": "ns=2;s=KepwareOPC.BYD.QualityInformation.Concentricity"
+  },
+  "EquipmentParameter": {
+      "Process_1": "ns=2;s=KepwareOPC.BYD.EquipmentParameter.Process_1",
+      "Process_2": "ns=2;s=KepwareOPC.BYD.EquipmentParameter.Process_2",
+      "Process_3": "ns=2;s=KepwareOPC.BYD.EquipmentParameter.Process_3"
+  },  
+  "ProductionData": {
+      "OK": "ns=2;s=KepwareOPC.BYD.OK",
+      "NG": "ns=2;s=KepwareOPC.BYD.NG",
+      "CT": "ns=2;s=KepwareOPC.BYD.CT"
+  },
+  "ProcessParameter": {
+      "Material": "ns=2;s=KepwareOPC.BYD.Material",
+      "Parameter": "ns=2;s=KepwareOPC.BYD.Parameter"
+  },
+  "OrderData": {
+      "Produced": "ns=2;s=KepwareOPC.BYD.Produced"
+  },  
+  "DetectionProcedure": {
+      "Camera": "ns=2;s=KepwareOPC.BYD.Camera"
+  },   
+  "EquipmentControl": {
+      "Control_1": "ns=2;s=KepwareOPC.BYD.Control_1",
+      "Control_2": "ns=2;s=KepwareOPC.BYD.Control_2",
+      "Control_3": "ns=2;s=KepwareOPC.BYD.Control_3"
+  }  
+}
